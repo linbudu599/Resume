@@ -1,0 +1,207 @@
+{
+  "Author": "Penumbra - Inspired by Joyee Cheung",
+  "Guide": [
+    "照着这里面的格式填写即可",
+    "PDF 会自动生成，文件名可以在 gulp.js 里改",
+    "PDF 的地址，将这个文件里pdf部分改为你的PDF文件名即可"
+  ],
+  "title": "林伟轩 - Web前端实习生",
+  "aside": [{
+      "href": "https://github.com/Lxxyx/LxxyxResume",
+      "content": "源代码"
+    },
+    {
+      "href": "./pdf/林伟轩-南昌大学-Web前端实习生.pdf",
+      "content": "PDF 下载"
+    }
+  ],
+  "header": {
+    "title": {
+      "name": "林伟轩",
+      "job": "前端开发实习生"
+    },
+    "contacts": {
+      "phone": "17689609062",
+      "mail": "linbudu599@gmail.com",
+      "wechat": "gyd02281031",
+      "github": {
+        "href": "https://github.com/linbudu599",
+        "name": "Linbudu599"
+      },
+      "blog": {
+        "href": "https://linbudu.top",
+        "name": "Penumbra"
+      }
+    }
+  },
+  "education": {
+    "time": "2017-2021",
+    "name": "南昌大学",
+    "major": "管理科学（本科）",
+    "honor": ["一次二等奖学金", "2019.09-至今 家园工作室 — `研发组前端开发`"]
+  },
+  "language": {
+    "cert": [{
+      "name": "CET-4",
+      "grade": 575,
+      "fullmarks": 710
+    }],
+    "skills": ["流畅阅读英文文档"]
+  },
+  "experience": [{
+      "title": {
+        "place": "家园工作室-数字家园服务平台",
+        "time": "2019.10 - 至今"
+      },
+      "content": {
+        "position": "前端开发成员",
+        "tasks": [
+          "项目前端基于 `React` + `TypeScript` + `Antd Pro` + `Umi` + `Dva`",
+          "参与 `前端技术架构` 与 `基础设施选型`, 包括错误监控/埋点/自动化构建流程",
+          "完善的 Git + GitFlow + Code Review 机制",
+          "与后端协同制定 API 数据交换规范"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "小程序项目 - 前后端",
+        "time": "2020.01 - 2020.02"
+      },
+      "content": {
+        "position": "前后端",
+        "tasks": [
+          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-FE\" target=\"_blank\">前端仓库地址</a>",
+          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-BE\" target=\"_blank\">后端仓库地址</a>",
+          "使用原生小程序语言开发前端",
+          "基于 `TypeScript` + `Koa` + `MySQL` 开发后端, 实体表与业务表分离",
+          "编写单元测试与接口测试用小程序",
+          "使用小程序原生能力进行`性能与用户体验优化`"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "Epoch - 轻量级博客解决方案(开发中)",
+        "time": "2020.03 - 至今"
+      },
+      "content": {
+        "position": "前后端  产品  设计  运维",
+        "tasks": [
+          "<a href=\"http://47.97.183.158:4000/graphql\" target=\"_blank\">管理后台地址</a>",
+          "<a href=\"http://47.97.183.158:4000/graphql\" target=\"_blank\">GraphQL Playground</a>",
+          "构思开发思路与多端实现方案",
+          "基于 `GraphQL` + `Apollo` + `Koa` 开发后端API",
+          "借助 `TypeGraphQL` 与 `TypeORM` 有效精简代码同时提升可读性, 代码量减少约`30%`",
+          "基于 `TypeScript` + `React` + `Antd` 设计后台, 进行文章管理与博客配置",
+          "基于 `Travis` 与 `Docker` 实现完善的前端自动化CI/CD流程"
+        ]
+      }
+    },
+    {
+      "title": {
+        "place": "家园工作室",
+        "time": "2019.10 - 至今"
+      },
+      "content": {
+        "position": "前端组核心成员",
+        "tasks": [
+          "推动基于 `GraphQL` 和 `Apollo`, 使用 `Node` 开发的BFF层",
+          "Web 前端与 HybridApp 开发",
+          "参与` 前端技术选型` 与 `运维体系` 构建, 提升开发效率",
+          "参与工作室新人培训与指导, 带动新人在项目实践中学习",
+          "参与旧有项目`维护`与`重构`, 根据业务需求封装复用性良好的组件"
+        ]
+      }
+    }
+  ],
+
+  "skills": {
+    "flags": {
+      "name": "Web 前端",
+      "skill": [{
+          "name": "HTML/CSS",
+          "description": [
+            "熟悉HTML5/CSS3新特性, 能够编写语义化良好的网页结构",
+            "熟悉常用布局与响应式适配"
+          ]
+        },
+        {
+          "name": "ECMAScript（JavaScript）",
+          "description": [
+            "熟练使用 `ES6/7/8/Next` 新特性开发项目",
+            "熟悉常用的异步处理方案, 编写结构清晰的异步代码",
+            "熟悉基本的 `TypeScript` 使用"
+          ]
+        },
+        {
+          "name": "前端框架与工程化",
+          "description": [
+            "了解并简单使用过 `Vue` 开发项目",
+            "熟悉 `React` 及其与 `TypeScript` 的结合使用",
+            "编写单元测试与E2E测试",
+            "熟悉 `Webpack` 与 `Parcel` 的原理及使用, 落地一套经过`性能调优`的配置与模板",
+            "对前端 `性能调优` / `错误监控` / `埋点` / `自动化构建流程` 有实践与思考"
+          ]
+        },
+        {
+          "name": "其他",
+          "description": [
+            "有 `原生小程序` 开发经验",
+            "了解基本的 `Dart` 与 `Flutter` 语法, 能编写简单的Widget",
+            "开发思路基于 `Feflow` 的脚手架, 包含前后端多套模板插件包, 帮助提升项目开发效率"
+          ]
+        }
+      ]
+    },
+    "cloud": {
+      "name": "Web 后端",
+      "skill": [{
+          "name": "Node.js",
+          "description": [
+            "熟练使用 `TS + Koa2/Express + MongoDB/MySQL` 开发后端项目",
+            "使用 `Jest` 编写覆盖率良好的单元测试",
+            "使用 `Puppeteer` 编写爬虫与网页脚本"
+          ]
+        },
+        {
+          "name": "GraphQL",
+          "description": [
+            "熟悉原生 `GraphQL` 语法",
+            "使用 `Apollo-Server` 与 `Apollo-Client` 及相关生态开发全栈应用",
+            "在工作室内部尝试推动基于 `GraphQL` 和 `Node.Js` 的BFF层, 同时避免对原有接口改动",
+            "对 `GraphQL` 的作用与前景有一定思考"
+          ]
+        },
+        {
+          "name": "其他后端相关",
+          "description": [
+            "使用 `Docker` 进行项目自动化构建与部署",
+            "了解 `TCP/IP 模型`和 `HTTP` 1.1、2 协议"
+          ]
+        }
+      ]
+    },
+    "gears": {
+      "name": "自我描述",
+      "skill": [{
+          "name": "`性格`",
+          "description": [
+            "乐观开朗, 对未来规划清晰明确",
+            "乐于向他人学习,弥补自己的不足",
+            "习惯对学习与开发中遇到的问题进行`反思`与`记录`",
+            "能够很好的融入`团队协作`并找到自己的角色"
+          ]
+        },
+        {
+          "name": "前端开发",
+          "description": [
+            "`拥抱繁荣的前端生态, 但不盲目追随`",
+            "`热爱前端开发, 但不局限自己于前端`",
+            "`有兴趣通过前端赋能其他岗位`"
+          ]
+        }
+      ]
+    }
+  }
+}
