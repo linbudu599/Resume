@@ -88,8 +88,8 @@
       "content": {
         "position": "前后端  产品  设计  运维",
         "tasks": [
-          "<a href=\"http://47.97.183.158:4000/graphql\" target=\"_blank\">管理后台地址</a>",
-          "<a href=\"http://47.97.183.158:4000/graphql\" target=\"_blank\">GraphQL Playground</a>",
+          "<a href=\"http://gql.linbudu.top/graphql\" target=\"_blank\">管理后台地址</a>",
+          "<a href=\"http://epoch.linbudu.top\" target=\"_blank\">GraphQL Playground</a>",
           "构思开发思路与多端实现方案",
           "基于 `GraphQL` + `Apollo` + `Koa` 开发后端API",
           "借助 `TypeGraphQL` 与 `TypeORM` 有效精简代码同时提升可读性, 代码量减少约`30%`",
