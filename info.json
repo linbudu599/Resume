@@ -22,7 +22,7 @@
     },
     "contacts": {
       "phone": "17689609062",
-      "mail": "linbudu599@gmail.com",
+      "mail": "linbudu@qq.com",
       "wechat": "gyd02281031",
       "github": {
         "href": "https://github.com/linbudu599",
@@ -54,7 +54,7 @@
         "time": "2019.10 - 至今"
       },
       "content": {
-        "position": "前端开发成员",
+        "position": "前端组开发成员",
         "tasks": [
           "项目前端基于 `React` + `TypeScript` + `Antd Pro` + `Umi` + `Dva`",
           "参与 `前端技术架构` 与 `基础设施选型`, 包括错误监控/埋点/自动化构建流程",
@@ -71,10 +71,10 @@
       "content": {
         "position": "前后端",
         "tasks": [
-          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-FE\" target=\"_blank\">前端仓库地址</a>",
-          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-BE\" target=\"_blank\">后端仓库地址</a>",
-          "使用原生小程序语言开发前端",
-          "基于 `TypeScript` + `Koa` + `MySQL` 开发后端, 实体表与业务表分离",
+          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-FE\" target=\"_blank\">前端仓库</a>",
+          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-BE\" target=\"_blank\">后端仓库</a>",
+          "使用原生小程序完成前端界面",
+          "使用 `TypeScript` + `Koa2` + `MySQL` 开发后端API",
           "编写单元测试与接口测试用小程序",
           "使用小程序原生能力进行`性能与用户体验优化`"
         ]
@@ -88,13 +88,13 @@
       "content": {
         "position": "前后端  产品  设计  运维",
         "tasks": [
-          "<a href=\"http://gql.linbudu.top/graphql\" target=\"_blank\">管理后台地址</a>",
-          "<a href=\"http://epoch.linbudu.top\" target=\"_blank\">GraphQL Playground</a>",
+          "<a href=\"http://gql.linbudu.top/graphql\" target=\"_blank\">GraphQL Playground</a>",
+          "<a href=\"https://github.com/linbudu599/Epoch\" target=\"_blank\">整体项目说明</a>",
           "构思开发思路与多端实现方案",
           "基于 `GraphQL` + `Apollo` + `Koa` 开发后端API",
-          "借助 `TypeGraphQL` 与 `TypeORM` 有效精简代码同时提升可读性, 代码量减少约`30%`",
+          "使用 `TypeGraphQL` 与 `TypeORM` 有效精简代码同时提升可读性, 代码量减少约`30%`",
           "基于 `TypeScript` + `React` + `Antd` 设计后台, 进行文章管理与博客配置",
-          "基于 `Travis` 与 `Docker` 实现完善的前端自动化CI/CD流程"
+          "基于 `Travis` 与 `Docker` 打造完善的前端自动化构建流程"
         ]
       }
     },
@@ -108,7 +108,7 @@
         "tasks": [
           "推动基于 `GraphQL` 和 `Apollo`, 使用 `Node` 开发的BFF层",
           "Web 前端与 HybridApp 开发",
-          "参与` 前端技术选型` 与 `运维体系` 构建, 提升开发效率",
+          "参与` 前端技术选型` 与 `运维体系` 构建, 提升组内开发效率",
           "参与工作室新人培训与指导, 带动新人在项目实践中学习",
           "参与旧有项目`维护`与`重构`, 根据业务需求封装复用性良好的组件"
         ]
@@ -131,16 +131,16 @@
           "description": [
             "熟练使用 `ES6/7/8/Next` 新特性开发项目",
             "熟悉常用的异步处理方案, 编写结构清晰的异步代码",
-            "熟悉基本的 `TypeScript` 使用"
+            "了解基本的 `TypeScript` 使用"
           ]
         },
         {
           "name": "前端框架与工程化",
           "description": [
-            "了解并简单使用过 `Vue` 开发项目",
             "熟悉 `React` 及其与 `TypeScript` 的结合使用",
-            "编写单元测试与E2E测试",
             "熟悉 `Webpack` 与 `Parcel` 的原理及使用, 落地一套经过`性能调优`的配置与模板",
+            "了解并简单使用过 `Vue` 开发项目",
+            "编写单元测试与E2E测试",
             "对前端 `性能调优` / `错误监控` / `埋点` / `自动化构建流程` 有实践与思考"
           ]
         },
@@ -169,7 +169,7 @@
           "description": [
             "熟悉原生 `GraphQL` 语法",
             "使用 `Apollo-Server` 与 `Apollo-Client` 及相关生态开发全栈应用",
-            "在工作室内部尝试推动基于 `GraphQL` 和 `Node.Js` 的BFF层, 同时避免对原有接口改动",
+            "在工作室内部尝试推动基于 `GraphQL` 和 `Node.Js` 的BFF层, 无需改动原有REST接口",
             "对 `GraphQL` 的作用与前景有一定思考"
           ]
         },
