@@ -6,7 +6,8 @@
     "PDF 的地址，将这个文件里pdf部分改为你的PDF文件名即可"
   ],
   "title": "林伟轩 - Web前端实习生",
-  "aside": [{
+  "aside": [
+    {
       "href": "https://github.com/Lxxyx/LxxyxResume",
       "content": "源代码"
     },
@@ -41,14 +42,31 @@
     "honor": ["一次二等奖学金", "2019.09-至今 家园工作室 — `研发组前端开发`"]
   },
   "language": {
-    "cert": [{
-      "name": "CET-4",
-      "grade": 575,
-      "fullmarks": 710
-    }],
+    "cert": [
+      {
+        "name": "CET-4",
+        "grade": 575,
+        "fullmarks": 710
+      }
+    ],
     "skills": ["流畅阅读英文文档"]
   },
-  "experience": [{
+  "experience": [
+    {
+      "title": {
+        "place": "阿里巴巴-淘系技术部",
+        "time": "2020.05 - 至今"
+      },
+      "content": {
+        "position": "前端开发实习生",
+        "tasks": [
+          "参与Serverless相关基建从零到一落地, 全面提升研发效能",
+          "基于Rax构建跨端页面, 贯彻模块式开发",
+          "参与MidwayJS特性贡献与BUG修复"
+        ]
+      }
+    },
+    {
       "title": {
         "place": "家园工作室-数字家园服务平台",
         "time": "2019.10 - 至今"
@@ -58,8 +76,7 @@
         "tasks": [
           "项目前端基于 `React` + `TypeScript` + `Antd Pro` + `Umi` + `Dva`",
           "参与 `前端技术架构` 与 `基础设施选型`, 包括错误监控/埋点/自动化构建流程",
-          "完善的 Git + GitFlow + Code Review 机制",
-          "与后端协同制定 API 数据交换规范"
+          "完善的 Git + GitFlow + Code Review 机制"
         ]
       }
     },
@@ -106,8 +123,8 @@
       "content": {
         "position": "前端组核心成员",
         "tasks": [
-          "推动基于 `GraphQL` 和 `Apollo`, 使用 `Node` 开发的BFF层",
-          "Web 前端与 HybridApp 开发",
+          "推动基于 `GraphQL` 和 `Apollo`, 使用 `NodeJS` 开发的BFF层",
+          "推动部分FaaS一体化应用落地",
           "参与` 前端技术选型` 与 `运维体系` 构建, 提升组内开发效率",
           "参与工作室新人培训与指导, 带动新人在项目实践中学习",
           "参与旧有项目`维护`与`重构`, 根据业务需求封装复用性良好的组件"
@@ -119,7 +136,8 @@
   "skills": {
     "flags": {
       "name": "Web 前端",
-      "skill": [{
+      "skill": [
+        {
           "name": "HTML/CSS",
           "description": [
             "熟悉HTML5/CSS3新特性, 能够编写语义化良好的网页结构",
@@ -129,18 +147,18 @@
         {
           "name": "ECMAScript（JavaScript）",
           "description": [
-            "熟练使用 `ES6/7/8/Next` 新特性开发项目",
-            "熟悉常用的异步处理方案, 编写结构清晰的异步代码",
-            "了解基本的 `TypeScript` 使用"
+            "熟悉语言基本机理",
+            "熟练使用 `ES6/7/8/Next` 及各个阶段的新特性",
+            "熟悉使用`TypeScript`开发前后端"
           ]
         },
         {
           "name": "前端框架与工程化",
           "description": [
             "熟悉 `React` 及其与 `TypeScript` 的结合使用",
-            "熟悉 `Webpack` 与 `Parcel` 的原理及使用, 落地一套经过`性能调优`的配置与模板",
-            "了解并简单使用过 `Vue` 开发项目",
-            "编写单元测试与E2E测试",
+            "熟悉 `Webpack` 与 `Parcel` 的原理及使用, 分别落地一套经过`性能调优`的配置与模板",
+            "编写单元测试 & 集成测试 & E2E测试, 前后端覆盖率分别在80%及95%以上",
+            "基于 Serverless(`Midway-FaaS`) 开发前后端一体化应用",
             "对前端 `性能调优` / `错误监控` / `埋点` / `自动化构建流程` 有实践与思考"
           ]
         },
@@ -148,19 +166,19 @@
           "name": "其他",
           "description": [
             "有 `原生小程序` 开发经验",
-            "了解基本的 `Dart` 与 `Flutter` 语法, 能编写简单的Widget",
-            "开发思路基于 `Feflow` 的脚手架, 包含前后端多套模板插件包, 帮助提升项目开发效率"
+            "开发思路基于 `Feflow` 的脚手架, 包含前后端多套模板插件包, 帮助研发前提效"
           ]
         }
       ]
     },
     "cloud": {
       "name": "Web 后端",
-      "skill": [{
+      "skill": [
+        {
           "name": "Node.js",
           "description": [
-            "熟练使用 `TS + Koa2/Express + MongoDB/MySQL` 开发后端项目",
-            "使用 `Jest` 编写覆盖率良好的单元测试",
+            "熟练使用 `TS + Midway/Egg/Koa2/Express` 及常用ORM 开发后端项目",
+            "熟悉Node常用模块",
             "使用 `Puppeteer` 编写爬虫与网页脚本"
           ]
         },
@@ -169,7 +187,7 @@
           "description": [
             "熟悉原生 `GraphQL` 语法",
             "使用 `Apollo-Server` 与 `Apollo-Client` 及相关生态开发全栈应用",
-            "在工作室内部尝试推动基于 `GraphQL` 和 `Node.Js` 的BFF层, 无需改动原有REST接口",
+            "在工作室内部推动基于 `GraphQL` 和 `Node.Js` 的BFF层",
             "对 `GraphQL` 的作用与前景有一定思考"
           ]
         },
@@ -177,6 +195,7 @@
           "name": "其他后端相关",
           "description": [
             "使用 `Docker` 进行项目自动化构建与部署",
+            "熟悉FaaS+BaaS的使用, 迁移过旧有项目上云",
             "了解 `TCP/IP 模型`和 `HTTP` 1.1、2 协议"
           ]
         }
@@ -184,7 +203,8 @@
     },
     "gears": {
       "name": "自我描述",
-      "skill": [{
+      "skill": [
+        {
           "name": "`性格`",
           "description": [
             "乐观开朗, 对未来规划清晰明确",
