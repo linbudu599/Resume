@@ -5,21 +5,21 @@
     "PDF 会自动生成，文件名可以在 gulp.js 里改",
     "PDF 的地址，将这个文件里pdf部分改为你的PDF文件名即可"
   ],
-  "title": "林伟轩 - Web前端实习生",
+  "title": "林伟轩 - Web前端工程师",
   "aside": [
     {
       "href": "https://github.com/Lxxyx/LxxyxResume",
       "content": "源代码"
     },
     {
-      "href": "./pdf/林伟轩-南昌大学-Web前端实习生.pdf",
+      "href": "./pdf/林伟轩-南昌大学-Web前端工程师.pdf",
       "content": "PDF 下载"
     }
   ],
   "header": {
     "title": {
       "name": "林伟轩",
-      "job": "前端开发实习生"
+      "job": "Web前端开发"
     },
     "contacts": {
       "phone": "17689609062",
@@ -44,12 +44,12 @@
   "language": {
     "cert": [
       {
-        "name": "CET-4",
-        "grade": 575,
+        "name": "CET-6",
+        "grade": 447,
         "fullmarks": 710
       }
     ],
-    "skills": ["流畅阅读英文文档"]
+    "skills": ["流畅阅读英文文档", "为开源项目翻译文档"]
   },
   "experience": [
     {
@@ -60,9 +60,10 @@
       "content": {
         "position": "前端开发实习生",
         "tasks": [
-          "参与 `Serverless` 相关基建从零到一落地, 涵盖`FaaS`应用开发-上线-迭代流程",
+          "参与 `Serverless` 相关基建从零到一落地, 涵盖 `Faa 应用开发-上线-迭代` 流程",
           "基于 `Rax` 构建跨端页面, 贯彻模块式开发",
-          "基于 `MidwayJS` 开发一体化应用"
+          "基于 `MidwayJS` 开发一体化应用",
+          "完善内部平台 `单元/集成/E2E` 测试用例"
         ]
       }
     },
@@ -75,41 +76,39 @@
         "position": "前端组开发成员",
         "tasks": [
           "项目前端基于 `React` + `TypeScript` + `Antd Pro` + `Umi` + `Dva`",
-          "参与 `前端技术架构` 与 `基础设施选型`, 包括 错误监控 / 埋点 / 自动化构建流程等",
-          "完善的 Git + GitFlow + Code Review + CI/CD 机制"
+          "参与 `前端技术架构` 与 `基础设施选型`, 包括 `错误监控` / `埋点` / `自动化构建流程` 等",
+          "完善的 `Git` + `GitFlow` + `Code Review` + `CI/CD` 机制"
         ]
       }
     },
     {
       "title": {
-        "place": "小程序项目 - 前后端",
-        "time": "2020.01 - 2020.02"
+        "place": "小程序项目 - 前后端"
       },
       "content": {
         "position": "前后端",
         "tasks": [
-          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-FE\" target=\"_blank\">前端仓库</a>",
-          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-BE\" target=\"_blank\">后端仓库</a>",
-          "使用原生小程序语法及能力完成前端界面",
+          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-FE\" target=\"_blank\">`前端仓库`</a>",
+          "<a href=\"https://github.com/linbudu599/Mini-Program-BUDU-BE\" target=\"_blank\">`后端仓库`</a>",
+          "使用 `原生小程序语法及能力` 完成前端界面",
           "使用 `TypeScript` + `Koa2` + `MySQL` 开发后端API",
-          "编写单元测试与接口测试用小程序"
+          "编写单元测试与接口测试用小程序以保障稳定"
         ]
       }
     },
     {
       "title": {
-        "place": "Epoch - 轻量级博客解决方案",
-        "time": "2020.03 - 2020.05"
+        "place": "Epoch - 轻量级博客解决方案"
       },
       "content": {
         "position": "前后端  产品  设计  运维",
         "tasks": [
           "<a href=\"http://gql.linbudu.top/graphql\" target=\"_blank\">GraphQL Playground</a>",
           "<a href=\"https://github.com/linbudu599/Epoch\" target=\"_blank\">整体项目说明</a>",
-          "构思开发思路与多端实现方案",
+          "构思产品原型与开发架构",
           "基于 `GraphQL` + `Apollo-Server` 开发后端API",
-          "使用 `TypeGraphQL` 与 `TypeORM` 有效精简代码同时提升可读性, 代码量减少约`30%`",
-          "基于 `TypeScript` + `React` + `Antd` 设计后台, 进行文章管理与博客配置整合 "
+          "使用 `TypeGraphQL` 与 `TypeORM` 有效精简代码, 代码量减少约`30%`",
+          "基于 `TypeScript` + `React` + `Antd` 设计后台, 进行文章管理与博客配置整合"
         ]
       }
     },
@@ -119,12 +118,11 @@
         "time": "2019.10 - 至今"
       },
       "content": {
-        "position": "前端组核心成员",
+        "position": "前端组成员",
         "tasks": [
-          "推动基于 `GraphQL` 和 `Apollo`, 使用 `NodeJS` 开发的 `BFF/SFF` 层",
-          "参与` 前端技术选型` 与 `运维体系` 构建, 提升组员开发效能",
+          "参与` 前端技术选型` 与 `运维体系` 构建, 提升组员开发效率",
           "参与工作室新人培训与指导, 带动新人在项目实践中学习",
-          "参与旧有项目 `维护` 与 `重构`, 根据业务需求封装复用性良好的组件"
+          "参与旧有项目 `维护` 与 `重构`, 封装复用性良好的组件"
         ]
       }
     }
@@ -137,7 +135,7 @@
         {
           "name": "HTML/CSS",
           "description": [
-            "熟悉 `HTML5`/ `CSS3` 新特性, 能够编写语义化良好的网页结构",
+            "熟悉 `HTML5` / `CSS3` 新特性, 能够编写语义化良好的网页结构",
             "熟悉常用布局与响应式适配"
           ]
         },
@@ -146,24 +144,24 @@
           "description": [
             "熟悉语言基本机理",
             "熟练使用 `ES6/7/8/Next` 新特性",
-            "熟悉使用 `TypeScript` 开发前后端项目"
+            "熟悉使用 `TypeScript`能力 开发前后端项目"
           ]
         },
         {
           "name": "前端框架与工程化",
           "description": [
-            "熟悉 `React` 及其与 `TypeScript` 的结合使用",
-            "熟悉 `Webpack` 与 `Parcel` 的原理及使用, 各自落地一套经过`性能调优`的配置与模板",
-            "编写单元测试 & 集成测试 & E2E测试",
-            "基于 `Serverless(Midway-FaaS`) 开发前后端一体化应用",
+            "熟悉 `React` 相关生态及其与 `TypeScript` 的结合使用",
+            "开发思路基于 `Feflow` 的脚手架, 包含前后端多套模板插件包, 快速完成项目初始化",
+            "熟悉 `Webpack` 与 `Parcel` 的原理及使用, 各自落地一套经过`性能调优`的配置",
+            "编写 `单元测试` & `集成测试` & `E2E测试`",
             "对前端 `性能调优` / `错误监控` / `埋点` / `自动化构建流程` 有实践与思考"
           ]
         },
         {
-          "name": "其他",
+          "name": "其他前端相关",
           "description": [
             "有 `原生小程序` 与 `Taro` 开发经验",
-            "开发思路基于 `Feflow` 的脚手架, 包含前后端多套模板插件包, 帮助研发提效"
+            "有 `Flutter App` 开发经验, 熟悉常用 `Widget`"
           ]
         }
       ]
@@ -174,7 +172,7 @@
         {
           "name": "Node.js",
           "description": [
-            "熟练使用 `TS` +`Midway/Egg/Koa2/Express` 及 `TypeORM` 开发后端项目",
+            "熟练使用 `TS` + `Midway/Egg/Koa2/Express` 及 `TypeORM` / `Prisma` 开发服务端",
             "熟悉 `NodeJS` 常用模块",
             "使用 `Puppeteer` 编写爬虫与网页自动化脚本"
           ]
@@ -182,9 +180,9 @@
         {
           "name": "GraphQL",
           "description": [
-            "熟悉原生 `GraphQL` 语法",
-            "使用 `Apollo-Server` 与 `Apollo-Client` 及相关生态开发全栈应用",
-            "在工作室内部推动基于 `GraphQL` 和 `Node.Js` 的BFF层",
+            "熟悉原生GraphQL语法与操作",
+            "输出系列GraphQL教学文章, 覆盖 `入门到源码解析`",
+            "使用 `Apollo` 相关生态开发全栈应用",
             "对 `GraphQL` 的作用与前景有一定思考"
           ]
         },
@@ -192,6 +190,7 @@
           "name": "其他后端相关",
           "description": [
             "使用 `Docker` 进行项目自动化构建与部署",
+            "编写基于 `GraphQL` 和 `Apollo`, 使用 `NodeJS` 开发的 `BFF层` ",
             "熟悉 `FaaS` + `BaaS` 的使用, 迁移旧有项目上云"
           ]
         }
@@ -203,8 +202,8 @@
         {
           "name": "`性格`",
           "description": [
+            "拥抱开源社区, 产出 `学习/总结文章`",
             "乐观开朗, 对未来规划清晰明确",
-            "乐于向他人学习,弥补自己的不足",
             "习惯对学习与开发中遇到的问题进行`反思`与`记录`",
             "能够很好的融入`团队协作`并找到自己的角色"
           ]
